@@ -1,5 +1,5 @@
 #!/bin/bash
 
 apt update
-apt install tmate sudo -y
+apt install tmate -y
 tmate -F
