@@ -7,7 +7,7 @@ task:
     container:
       image: apon77/aosp:latest
       cpu: 16
-      memory: 24G
+      memory: 80G
     build_script: 
       - chmod +x build.sh
       - ./build.sh
